@@ -1,0 +1,46 @@
+body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        font-family: Arial, sans-serif;
+        background-color: #870f0f;
+    }
+    
+    .stopwatch {
+        text-align: center;
+        background: #4404db;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    }
+    
+    #display {
+        font-size: 48px;
+        margin: 20px 0;
+        padding: 10px;
+        border: 2px solid #666;
+        border-radius: 5px;
+        color: #333;
+    }
+    
+    .buttons {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+    
+    button {
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        border: none;
+        border-radius: 5px;
+        background-color: #008CBA;
+        color: white;
+        transition: background 0.3s;
+    }
+    
+    button:hover {
+        background-color: #005f73;
+    }
